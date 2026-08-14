@@ -1,0 +1,1154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Mis Finanzas</title>
+<meta name="theme-color" content="#12151A">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Finanzas">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+
+<style>
+  :root{
+    --bg:#12151A;
+    --surface:#1B1F26;
+    --surface-2:#20252D;
+    --border:#2A2F38;
+    --copper:#C9793C;
+    --copper-soft:rgba(201,121,60,0.15);
+    --mint:#4FD1AE;
+    --mint-soft:rgba(79,209,174,0.14);
+    --coral:#E8785A;
+    --coral-soft:rgba(232,120,90,0.14);
+    --text:#EDEFF2;
+    --text-muted:#8B93A0;
+    --text-faint:#5B6472;
+    --radius:16px;
+    --radius-sm:10px;
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
+  html,body{height:100%;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:'Inter',sans-serif;
+    -webkit-font-smoothing:antialiased;
+    padding-bottom:env(safe-area-inset-bottom);
+  }
+  .mono{font-family:'JetBrains Mono',monospace;}
+  .display{font-family:'Fraunces',serif;}
+
+  a,button{font-family:inherit;}
+
+  /* ---------- Layout shell ---------- */
+  #app{
+    display:flex;
+    min-height:100vh;
+  }
+  nav.sidebar{
+    display:none;
+  }
+  main{
+    flex:1;
+    max-width:1100px;
+    margin:0 auto;
+    width:100%;
+    padding:28px 20px 100px;
+  }
+
+  header.topbar{
+    display:flex;
+    align-items:baseline;
+    justify-content:space-between;
+    margin-bottom:24px;
+  }
+  header.topbar .brand{
+    font-family:'Fraunces',serif;
+    font-size:22px;
+    font-weight:600;
+    letter-spacing:-0.01em;
+  }
+  header.topbar .brand span{color:var(--copper);}
+  header.topbar .date{
+    font-size:12px;
+    color:var(--text-faint);
+    font-family:'JetBrains Mono',monospace;
+    text-transform:capitalize;
+  }
+
+  /* bottom nav (mobile) */
+  nav.tabbar{
+    position:fixed;
+    bottom:0; left:0; right:0;
+    background:rgba(27,31,38,0.92);
+    backdrop-filter:blur(14px);
+    -webkit-backdrop-filter:blur(14px);
+    border-top:1px solid var(--border);
+    display:flex;
+    padding:8px 6px calc(8px + env(safe-area-inset-bottom));
+    z-index:40;
+  }
+  nav.tabbar button{
+    flex:1;
+    background:none;
+    border:none;
+    color:var(--text-faint);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:4px;
+    font-size:10.5px;
+    padding:6px 2px;
+    border-radius:12px;
+    cursor:pointer;
+    transition:color .15s ease;
+  }
+  nav.tabbar button svg{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:1.7;}
+  nav.tabbar button.active{color:var(--copper);}
+
+  section.view{display:none;animation:fade .25s ease;}
+  section.view.active{display:block;}
+  @keyframes fade{from{opacity:0;transform:translateY(4px);}to{opacity:1;transform:translateY(0);}}
+
+  /* ---------- Dashboard ---------- */
+  .hero{
+    background:linear-gradient(160deg, var(--surface) 0%, var(--surface-2) 100%);
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    padding:26px 24px;
+    margin-bottom:18px;
+  }
+  .hero .label{
+    font-size:12px;
+    color:var(--text-muted);
+    text-transform:uppercase;
+    letter-spacing:.09em;
+    margin-bottom:6px;
+  }
+  .hero .amount{
+    font-family:'Fraunces',serif;
+    font-size:clamp(34px, 8vw, 52px);
+    font-weight:600;
+    letter-spacing:-0.02em;
+    font-variant-numeric:tabular-nums;
+  }
+  .hero .amount.neg{color:var(--coral);}
+  .hero .amount.pos{color:var(--text);}
+
+  .stat-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:12px;
+    margin-bottom:22px;
+  }
+  .stat-card{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:var(--radius-sm);
+    padding:14px 16px;
+  }
+  .stat-card .label{
+    font-size:11px;
+    color:var(--text-muted);
+    text-transform:uppercase;
+    letter-spacing:.07em;
+    display:flex;
+    align-items:center;
+    gap:6px;
+    margin-bottom:8px;
+  }
+  .stat-card .dot{width:6px;height:6px;border-radius:50%;}
+  .stat-card .val{
+    font-family:'JetBrains Mono',monospace;
+    font-size:19px;
+    font-weight:600;
+    font-variant-numeric:tabular-nums;
+  }
+  .dot.mint{background:var(--mint);}
+  .dot.coral{background:var(--coral);}
+  .dot.copper{background:var(--copper);}
+
+  .chart-card{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    padding:18px 16px 8px;
+    margin-bottom:16px;
+  }
+  .chart-card h3{
+    font-size:13px;
+    font-weight:600;
+    margin:0 0 14px;
+    color:var(--text-muted);
+    text-transform:uppercase;
+    letter-spacing:.06em;
+  }
+  .chart-wrap{position:relative; height:220px;}
+  .chart-wrap.donut{height:260px;}
+
+  /* ---------- Section headers ---------- */
+  .section-head{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom:16px;
+  }
+  .section-head h2{
+    font-family:'Fraunces',serif;
+    font-size:22px;
+    font-weight:600;
+    margin:0;
+  }
+  .btn{
+    background:var(--copper);
+    color:#171310;
+    border:none;
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:13.5px;
+    font-weight:600;
+    cursor:pointer;
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+    transition:filter .15s ease, transform .1s ease;
+  }
+  .btn:active{transform:scale(.97);}
+  .btn:hover{filter:brightness(1.08);}
+  .btn.ghost{
+    background:transparent;
+    border:1px solid var(--border);
+    color:var(--text);
+  }
+  .btn.danger{background:var(--coral); color:#241109;}
+  .btn.small{padding:6px 12px; font-size:12px;}
+  .btn.full{width:100%; justify-content:center;}
+
+  /* ---------- Cards / lists ---------- */
+  .card-list{display:flex; flex-direction:column; gap:10px;}
+  .row-card{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:var(--radius-sm);
+    padding:14px 16px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+    cursor:pointer;
+  }
+  .row-card .left{display:flex; flex-direction:column; gap:3px; min-width:0;}
+  .row-card .name{font-weight:600; font-size:14.5px;}
+  .row-card .meta{font-size:12px; color:var(--text-muted);}
+  .row-card .right{text-align:right; flex-shrink:0;}
+  .row-card .amount{
+    font-family:'JetBrains Mono',monospace;
+    font-weight:600;
+    font-size:15px;
+    font-variant-numeric:tabular-nums;
+  }
+  .amount.ingreso{color:var(--mint);}
+  .amount.gasto{color:var(--coral);}
+  .tag{
+    display:inline-block;
+    font-size:10.5px;
+    padding:2px 8px;
+    border-radius:999px;
+    background:var(--copper-soft);
+    color:var(--copper);
+    margin-top:2px;
+  }
+  .empty-state{
+    text-align:center;
+    padding:48px 20px;
+    color:var(--text-faint);
+    font-size:13.5px;
+    border:1px dashed var(--border);
+    border-radius:var(--radius);
+  }
+  .empty-state .display{display:block; font-size:17px; color:var(--text-muted); margin-bottom:6px;}
+
+  .pocket-card{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    padding:16px;
+  }
+  .pocket-card .name{font-weight:600; font-size:15px; margin-bottom:2px;}
+  .pocket-card .rate{font-size:11.5px; color:var(--mint); margin-bottom:10px;}
+  .pocket-card .rate.none{color:var(--text-faint);}
+  .pocket-card .bal{
+    font-family:'JetBrains Mono',monospace;
+    font-size:24px;
+    font-weight:600;
+    margin-bottom:12px;
+  }
+  .pocket-card .actions{display:flex; gap:8px;}
+
+  .card-visual{
+    background:linear-gradient(135deg, #241A12 0%, #171310 60%);
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    padding:22px;
+    position:relative;
+    overflow:hidden;
+    margin-bottom:16px;
+  }
+  .card-visual::after{
+    content:'';
+    position:absolute;
+    right:-40px; top:-40px;
+    width:160px; height:160px;
+    border-radius:50%;
+    background:radial-gradient(circle, var(--copper-soft), transparent 70%);
+  }
+  .card-visual .lbl{font-size:11px; color:var(--text-muted); text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px;}
+  .card-visual .debt{font-family:'JetBrains Mono',monospace; font-size:30px; font-weight:700; color:var(--coral); margin-bottom:4px;}
+  .card-visual .sub{font-size:12px; color:var(--text-faint); margin-bottom:18px;}
+
+  /* ---------- Modal ---------- */
+  .overlay{
+    position:fixed; inset:0;
+    background:rgba(8,9,11,0.6);
+    backdrop-filter:blur(3px);
+    display:none;
+    align-items:flex-end;
+    justify-content:center;
+    z-index:100;
+  }
+  .overlay.open{display:flex;}
+  .modal{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:20px 20px 0 0;
+    width:100%;
+    max-width:480px;
+    max-height:88vh;
+    overflow-y:auto;
+    padding:20px 20px calc(24px + env(safe-area-inset-bottom));
+    animation:slideup .22s cubic-bezier(.32,.72,0,1);
+  }
+  @media(min-width:640px){
+    .overlay{align-items:center;}
+    .modal{border-radius:var(--radius); max-height:80vh;}
+  }
+  @keyframes slideup{from{transform:translateY(24px); opacity:0;} to{transform:translateY(0); opacity:1;}}
+  .modal h3{
+    font-family:'Fraunces',serif;
+    font-size:19px;
+    margin:0 0 16px;
+  }
+  .field{margin-bottom:14px;}
+  .field label{
+    display:block;
+    font-size:12px;
+    color:var(--text-muted);
+    margin-bottom:6px;
+    text-transform:uppercase;
+    letter-spacing:.05em;
+  }
+  .field input, .field select, .field textarea{
+    width:100%;
+    background:var(--surface-2);
+    border:1px solid var(--border);
+    border-radius:10px;
+    padding:11px 12px;
+    color:var(--text);
+    font-size:15px;
+    font-family:'Inter',sans-serif;
+  }
+  .field input.mono, .field select.mono{font-family:'JetBrains Mono',monospace;}
+  .field input:focus, .field select:focus, .field textarea:focus{
+    outline:none; border-color:var(--copper);
+  }
+  .seg{display:flex; gap:8px;}
+  .seg button{
+    flex:1;
+    background:var(--surface-2);
+    border:1px solid var(--border);
+    color:var(--text-muted);
+    padding:10px;
+    border-radius:10px;
+    font-size:13.5px;
+    font-weight:600;
+    cursor:pointer;
+  }
+  .seg button.active{
+    border-color:var(--copper);
+    color:var(--copper);
+    background:var(--copper-soft);
+  }
+  .modal-actions{display:flex; gap:10px; margin-top:18px;}
+  .cat-add-row{display:flex; gap:8px; margin-top:8px;}
+  .cat-add-row input{flex:1;}
+
+  /* ---------- Desktop ---------- */
+  @media(min-width:900px){
+    #app{max-width:1200px; margin:0 auto;}
+    nav.tabbar{display:none;}
+    nav.sidebar{
+      display:flex;
+      flex-direction:column;
+      width:230px;
+      padding:28px 14px;
+      border-right:1px solid var(--border);
+      gap:4px;
+      position:sticky; top:0; height:100vh;
+    }
+    nav.sidebar .brand{
+      font-family:'Fraunces',serif;
+      font-size:21px;
+      font-weight:600;
+      margin:6px 10px 26px;
+    }
+    nav.sidebar .brand span{color:var(--copper);}
+    nav.sidebar button{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      background:none;
+      border:none;
+      color:var(--text-muted);
+      padding:11px 12px;
+      border-radius:10px;
+      font-size:14px;
+      font-weight:500;
+      cursor:pointer;
+      text-align:left;
+    }
+    nav.sidebar button svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:1.7;flex-shrink:0;}
+    nav.sidebar button.active{background:var(--surface); color:var(--copper);}
+    main{padding:36px 40px 60px;}
+    .stat-grid{grid-template-columns:repeat(4,1fr);}
+    .charts-row{display:grid; grid-template-columns:1.4fr 1fr; gap:16px;}
+    .pockets-grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:14px;}
+  }
+
+  ::-webkit-scrollbar{width:8px; height:8px;}
+  ::-webkit-scrollbar-thumb{background:var(--border); border-radius:8px;}
+
+  .install-hint{
+    background:var(--copper-soft);
+    border:1px solid rgba(201,121,60,.35);
+    color:var(--copper);
+    font-size:12.5px;
+    padding:10px 14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  .install-hint button{background:none; border:none; color:var(--copper); font-size:16px; cursor:pointer; line-height:1;}
+</style>
+</head>
+<body>
+
+<div id="app">
+  <nav class="sidebar">
+    <div class="brand">Mis<span>$</span>Finanzas</div>
+    <button data-tab="resumen"><svg viewBox="0 0 24 24"><path d="M3 12l9-9 9 9M5 10v10h14V10"/></svg>Resumen</button>
+    <button data-tab="cuentas"><svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 10h18"/></svg>Cuentas</button>
+    <button data-tab="movimientos"><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h10"/></svg>Movimientos</button>
+    <button data-tab="tarjeta"><svg viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg>Tarjeta</button>
+    <button data-tab="bolsillos"><svg viewBox="0 0 24 24"><path d="M20 7h-3V6a3 3 0 00-6 0v1H8a2 2 0 00-2 2l-1 9a2 2 0 002 2h10a2 2 0 002-2l-1-9a2 2 0 00-2-2z"/></svg>Bolsillos</button>
+  </nav>
+
+  <main>
+    <header class="topbar">
+      <div class="brand">Mis<span>$</span>Finanzas</div>
+      <div class="date" id="todayLabel"></div>
+    </header>
+
+    <div class="install-hint" id="installHint" style="display:none;">
+      <span>Toca compartir <strong>→ Añadir a pantalla de inicio</strong> para instalar la app.</span>
+      <button id="dismissHint">✕</button>
+    </div>
+
+    <!-- RESUMEN -->
+    <section class="view active" id="view-resumen">
+      <div class="hero">
+        <div class="label">Balance total</div>
+        <div class="amount" id="heroBalance">$0</div>
+      </div>
+      <div class="stat-grid">
+        <div class="stat-card"><div class="label"><span class="dot mint"></span>Ingresos</div><div class="val" id="statIngresos">$0</div></div>
+        <div class="stat-card"><div class="label"><span class="dot coral"></span>Gastos</div><div class="val" id="statGastos">$0</div></div>
+        <div class="stat-card"><div class="label"><span class="dot copper"></span>Deuda tarjeta</div><div class="val" id="statDeuda">$0</div></div>
+        <div class="stat-card"><div class="label"><span class="dot mint"></span>Ahorrado</div><div class="val" id="statAhorrado">$0</div></div>
+      </div>
+      <div class="charts-row">
+        <div class="chart-card">
+          <h3>Ingresos vs. gastos por mes</h3>
+          <div class="chart-wrap"><canvas id="lineChart"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <h3>Gastos por categoría</h3>
+          <div class="chart-wrap donut"><canvas id="donutChart"></canvas></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CUENTAS -->
+    <section class="view" id="view-cuentas">
+      <div class="section-head">
+        <h2>Cuentas</h2>
+        <button class="btn" id="addAccountBtn">+ Nueva</button>
+      </div>
+      <div class="card-list" id="accountsList"></div>
+    </section>
+
+    <!-- MOVIMIENTOS -->
+    <section class="view" id="view-movimientos">
+      <div class="section-head">
+        <h2>Movimientos</h2>
+        <button class="btn" id="addTxBtn">+ Nuevo</button>
+      </div>
+      <div class="card-list" id="txList"></div>
+    </section>
+
+    <!-- TARJETA -->
+    <section class="view" id="view-tarjeta">
+      <div class="section-head"><h2>Tarjeta de crédito</h2></div>
+      <div id="tarjetaContent"></div>
+    </section>
+
+    <!-- BOLSILLOS -->
+    <section class="view" id="view-bolsillos">
+      <div class="section-head">
+        <h2>Bolsillos de ahorro</h2>
+        <button class="btn" id="addPocketBtn">+ Nuevo</button>
+      </div>
+      <div class="pockets-grid" id="pocketsList"></div>
+    </section>
+  </main>
+
+  <nav class="tabbar">
+    <button data-tab="resumen"><svg viewBox="0 0 24 24"><path d="M3 12l9-9 9 9M5 10v10h14V10"/></svg>Resumen</button>
+    <button data-tab="cuentas"><svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 10h18"/></svg>Cuentas</button>
+    <button data-tab="movimientos"><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h10"/></svg>Movs.</button>
+    <button data-tab="tarjeta"><svg viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg>Tarjeta</button>
+    <button data-tab="bolsillos"><svg viewBox="0 0 24 24"><path d="M20 7h-3V6a3 3 0 00-6 0v1H8a2 2 0 00-2 2l-1 9a2 2 0 002 2h10a2 2 0 002-2l-1-9a2 2 0 00-2-2z"/></svg>Bolsillos</button>
+  </nav>
+</div>
+
+<div class="overlay" id="overlay">
+  <div class="modal" id="modalBody"></div>
+</div>
+
+<script>
+/* ================= ESTADO ================= */
+const STORAGE_KEY = 'misFinanzasData_v2';
+const DEFAULT_CATEGORIES = ['Comida','Transporte','Hogar','Entretenimiento','Salud','Otros'];
+
+function uid(){ return Date.now().toString(36) + Math.random().toString(36).slice(2,7); }
+
+function loadState(){
+  const raw = localStorage.getItem(STORAGE_KEY);
+  if(raw){
+    try{ return JSON.parse(raw); }catch(e){ /* fall through */ }
+  }
+  return {
+    accounts: [],
+    pockets: [],
+    transactions: [],
+    categories: [...DEFAULT_CATEGORIES]
+  };
+}
+
+let state = loadState();
+
+function saveState(){
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+}
+
+/* ================= UTILIDADES ================= */
+const fmt = new Intl.NumberFormat('es-CL', { style:'currency', currency:'CLP', maximumFractionDigits:0 });
+function money(n){ return fmt.format(Math.round(n||0)); }
+
+function todayISO(){ return new Date().toISOString().slice(0,10); }
+
+function monthKey(dateStr){ return dateStr.slice(0,7); } // YYYY-MM
+
+function monthLabel(key){
+  const [y,m] = key.split('-');
+  const d = new Date(parseInt(y), parseInt(m)-1, 1);
+  return d.toLocaleDateString('es-CL', { month:'short', year:'2-digit' }).replace('.','');
+}
+
+/* ================= CRECIMIENTO MENSUAL DE BOLSILLOS ================= */
+function applyPocketGrowth(){
+  const now = new Date();
+  const nowKey = now.getFullYear()*12 + now.getMonth();
+  let changed = false;
+  state.pockets.forEach(p => {
+    if(!p.rate || p.rate <= 0) return;
+    if(!p.lastGrowth) p.lastGrowth = p.createdAt || todayISO();
+    const last = new Date(p.lastGrowth);
+    const lastKey = last.getFullYear()*12 + last.getMonth();
+    let months = nowKey - lastKey;
+    if(months > 0){
+      for(let i=0;i<months;i++){
+        p.balance = p.balance * (1 + p.rate/100);
+      }
+      p.lastGrowth = todayISO();
+      changed = true;
+    }
+  });
+  if(changed) saveState();
+}
+
+/* ================= CÁLCULOS DERIVADOS ================= */
+function accountBalance(acc){
+  if(acc.type === 'ahorro'){
+    let bal = acc.initialBalance || 0;
+    state.transactions.forEach(t => {
+      if(t.accountId !== acc.id) return;
+      if(t.type === 'ingreso') bal += t.amount;
+      else bal -= t.amount;
+    });
+    return bal;
+  }
+  return null;
+}
+
+function cardDebt(acc){
+  if(acc.type !== 'tarjeta') return null;
+  let debt = acc.initialDebt || 0;
+  state.transactions.forEach(t => {
+    if(t.type === 'gasto' && t.accountId === acc.id && !t.isCardPayment) debt += t.amount;
+    if(t.isCardPayment && t.linkedCardId === acc.id) debt -= t.amount;
+  });
+  return Math.max(0, debt);
+}
+
+function totals(){
+  let ingresos = 0, gastos = 0;
+  state.transactions.forEach(t => {
+    if(t.isCardPayment) return; // transferencia, no gasto real
+    if(t.type === 'ingreso') ingresos += t.amount;
+    else gastos += t.amount;
+  });
+  const deuda = state.accounts.filter(a=>a.type==='tarjeta').reduce((s,a)=>s+cardDebt(a),0);
+  const ahorrado = state.pockets.reduce((s,p)=>s+p.balance,0);
+  const balance = state.accounts.filter(a=>a.type==='ahorro').reduce((s,a)=>s+accountBalance(a),0);
+  return { ingresos, gastos, deuda, ahorrado, balance };
+}
+
+/* ================= NAVEGACIÓN ================= */
+function setTab(tab){
+  document.querySelectorAll('.view').forEach(v=>v.classList.remove('active'));
+  document.getElementById('view-'+tab).classList.add('active');
+  document.querySelectorAll('[data-tab]').forEach(b=>b.classList.toggle('active', b.dataset.tab===tab));
+  renderAll();
+}
+document.querySelectorAll('[data-tab]').forEach(btn=>{
+  btn.addEventListener('click', ()=> setTab(btn.dataset.tab));
+});
+
+/* ================= MODAL HELPERS ================= */
+const overlay = document.getElementById('overlay');
+const modalBody = document.getElementById('modalBody');
+function openModal(html){
+  modalBody.innerHTML = html;
+  overlay.classList.add('open');
+}
+function closeModal(){
+  overlay.classList.remove('open');
+  modalBody.innerHTML = '';
+}
+overlay.addEventListener('click', e=>{ if(e.target === overlay) closeModal(); });
+
+/* ================= RENDER: RESUMEN ================= */
+let lineChart, donutChart;
+function renderResumen(){
+  const t = totals();
+  const heroEl = document.getElementById('heroBalance');
+  heroEl.textContent = money(t.balance);
+  heroEl.className = 'amount ' + (t.balance < 0 ? 'neg':'pos');
+  document.getElementById('statIngresos').textContent = money(t.ingresos);
+  document.getElementById('statGastos').textContent = money(t.gastos);
+  document.getElementById('statDeuda').textContent = money(t.deuda);
+  document.getElementById('statAhorrado').textContent = money(t.ahorrado);
+
+  // -- Line chart: últimos 6 meses --
+  const months = [];
+  const now = new Date();
+  for(let i=5;i>=0;i--){
+    const d = new Date(now.getFullYear(), now.getMonth()-i, 1);
+    months.push(d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0'));
+  }
+  const ingByMonth = months.map(k => state.transactions
+    .filter(tr=>!tr.isCardPayment && tr.type==='ingreso' && monthKey(tr.date)===k)
+    .reduce((s,tr)=>s+tr.amount,0));
+  const gasByMonth = months.map(k => state.transactions
+    .filter(tr=>!tr.isCardPayment && tr.type==='gasto' && monthKey(tr.date)===k)
+    .reduce((s,tr)=>s+tr.amount,0));
+
+  const lineCtx = document.getElementById('lineChart');
+  if(lineChart) lineChart.destroy();
+  lineChart = new Chart(lineCtx, {
+    type:'line',
+    data:{
+      labels: months.map(monthLabel),
+      datasets:[
+        { label:'Ingresos', data: ingByMonth, borderColor:'#4FD1AE', backgroundColor:'rgba(79,209,174,0.12)', fill:true, tension:.35, pointRadius:3, pointBackgroundColor:'#4FD1AE' },
+        { label:'Gastos', data: gasByMonth, borderColor:'#E8785A', backgroundColor:'rgba(232,120,90,0.10)', fill:true, tension:.35, pointRadius:3, pointBackgroundColor:'#E8785A' }
+      ]
+    },
+    options:{
+      responsive:true, maintainAspectRatio:false,
+      plugins:{ legend:{ labels:{ color:'#8B93A0', font:{family:'Inter', size:11} } } },
+      scales:{
+        x:{ ticks:{ color:'#5B6472', font:{size:10.5} }, grid:{ color:'#2A2F38' } },
+        y:{ ticks:{ color:'#5B6472', font:{size:10}, callback:v=>{ if(v>=1000000) return (v/1000000)+'M'; if(v>=1000) return (v/1000)+'K'; return v; } }, grid:{ color:'#2A2F38' } }
+      }
+    }
+  });
+
+  // -- Donut chart: gasto por categoría (mes actual) --
+  const curMonth = now.getFullYear()+'-'+String(now.getMonth()+1).padStart(2,'0');
+  const catTotals = {};
+  state.transactions.filter(tr=>!tr.isCardPayment && tr.type==='gasto' && monthKey(tr.date)===curMonth)
+    .forEach(tr=>{ catTotals[tr.category] = (catTotals[tr.category]||0) + tr.amount; });
+  const catLabels = Object.keys(catTotals);
+  const palette = ['#C9793C','#4FD1AE','#E8785A','#7FA6C9','#D9B24C','#9B7FD9','#6FC98F','#C9598A'];
+
+  const donutCtx = document.getElementById('donutChart');
+  if(donutChart) donutChart.destroy();
+  if(catLabels.length === 0){
+    donutChart = null;
+    donutCtx.getContext('2d').clearRect(0,0,donutCtx.width,donutCtx.height);
+  } else {
+    donutChart = new Chart(donutCtx, {
+      type:'doughnut',
+      data:{
+        labels: catLabels,
+        datasets:[{ data: catLabels.map(c=>catTotals[c]), backgroundColor: catLabels.map((_,i)=>palette[i%palette.length]), borderColor:'#1B1F26', borderWidth:2 }]
+      },
+      options:{
+        responsive:true, maintainAspectRatio:false,
+        plugins:{ legend:{ position:'bottom', labels:{ color:'#8B93A0', font:{family:'Inter', size:11}, boxWidth:10, padding:12 } } },
+        cutout:'68%'
+      }
+    });
+  }
+}
+
+/* ================= RENDER: CUENTAS ================= */
+function renderCuentas(){
+  const list = document.getElementById('accountsList');
+  if(state.accounts.length === 0){
+    list.innerHTML = `<div class="empty-state"><span class="display">Aún no tienes cuentas</span>Crea tu primera cuenta de ahorro o tarjeta de crédito.</div>`;
+    return;
+  }
+  list.innerHTML = state.accounts.map(acc=>{
+    const isCard = acc.type === 'tarjeta';
+    const val = isCard ? cardDebt(acc) : accountBalance(acc);
+    return `<div class="row-card" data-account="${acc.id}">
+      <div class="left">
+        <div class="name">${escapeHtml(acc.name)}</div>
+        <div class="meta">${isCard ? 'Tarjeta de crédito' : 'Cuenta de ahorro'}</div>
+      </div>
+      <div class="right">
+        <div class="amount ${isCard ? 'gasto' : (val<0?'gasto':'ingreso')}">${money(val)}</div>
+        <div class="meta">${isCard ? 'deuda' : 'saldo'}</div>
+      </div>
+    </div>`;
+  }).join('');
+  list.querySelectorAll('[data-account]').forEach(el=>{
+    el.addEventListener('click', ()=> openAccountModal(el.dataset.account));
+  });
+}
+
+function openAccountModal(id){
+  const acc = id ? state.accounts.find(a=>a.id===id) : null;
+  const isEdit = !!acc;
+  openModal(`
+    <h3>${isEdit ? 'Editar cuenta' : 'Nueva cuenta'}</h3>
+    <div class="field">
+      <label>Tipo</label>
+      <div class="seg" id="accTypeSeg">
+        <button type="button" data-val="ahorro" class="${(!acc||acc.type==='ahorro')?'active':''}">Ahorro</button>
+        <button type="button" data-val="tarjeta" class="${acc&&acc.type==='tarjeta'?'active':''}">Tarjeta</button>
+      </div>
+    </div>
+    <div class="field">
+      <label>Nombre</label>
+      <input type="text" id="accName" placeholder="Ej: Cuenta principal" value="${acc?escapeHtml(acc.name):''}">
+    </div>
+    <div class="field" id="accBalanceField">
+      <label id="accBalanceLbl">Saldo inicial</label>
+      <input type="number" class="mono" id="accBalance" placeholder="0" value="${acc ? (acc.type==='tarjeta'?(acc.initialDebt||0):(acc.initialBalance||0)) : 0}">
+    </div>
+    <div class="modal-actions">
+      ${isEdit ? '<button class="btn danger" id="delAccBtn">Eliminar</button>' : ''}
+      <button class="btn ghost full" id="cancelAccBtn">Cancelar</button>
+      <button class="btn full" id="saveAccBtn">Guardar</button>
+    </div>
+  `);
+  let selType = acc ? acc.type : 'ahorro';
+  document.querySelectorAll('#accTypeSeg button').forEach(b=>{
+    b.addEventListener('click', ()=>{
+      selType = b.dataset.val;
+      document.querySelectorAll('#accTypeSeg button').forEach(x=>x.classList.toggle('active', x===b));
+      document.getElementById('accBalanceLbl').textContent = selType==='tarjeta' ? 'Deuda inicial' : 'Saldo inicial';
+    });
+  });
+  document.getElementById('cancelAccBtn').addEventListener('click', closeModal);
+  document.getElementById('saveAccBtn').addEventListener('click', ()=>{
+    const name = document.getElementById('accName').value.trim();
+    const bal = parseFloat(document.getElementById('accBalance').value) || 0;
+    if(!name){ alert('Ponle un nombre a la cuenta'); return; }
+    if(isEdit){
+      acc.name = name; acc.type = selType;
+      if(selType==='tarjeta') acc.initialDebt = bal; else acc.initialBalance = bal;
+    } else {
+      const newAcc = { id: uid(), name, type: selType, createdAt: todayISO() };
+      if(selType==='tarjeta') newAcc.initialDebt = bal; else newAcc.initialBalance = bal;
+      state.accounts.push(newAcc);
+    }
+    saveState(); closeModal(); renderAll();
+  });
+  if(isEdit){
+    document.getElementById('delAccBtn').addEventListener('click', ()=>{
+      if(confirm('¿Eliminar esta cuenta? Los movimientos asociados no se borrarán pero quedarán sin cuenta.')){
+        state.accounts = state.accounts.filter(a=>a.id!==acc.id);
+        saveState(); closeModal(); renderAll();
+      }
+    });
+  }
+}
+document.getElementById('addAccountBtn').addEventListener('click', ()=>openAccountModal(null));
+
+/* ================= RENDER: MOVIMIENTOS ================= */
+function renderMovimientos(){
+  const list = document.getElementById('txList');
+  const txs = [...state.transactions].sort((a,b)=> b.date.localeCompare(a.date) || b.id.localeCompare(a.id));
+  if(txs.length === 0){
+    list.innerHTML = `<div class="empty-state"><span class="display">Sin movimientos</span>Registra tu primer ingreso o gasto.</div>`;
+    return;
+  }
+  list.innerHTML = txs.map(t=>{
+    const acc = state.accounts.find(a=>a.id===t.accountId);
+    return `<div class="row-card" data-tx="${t.id}">
+      <div class="left">
+        <div class="name">${escapeHtml(t.description || t.category)}</div>
+        <div class="meta">${formatDateEs(t.date)} · ${acc?escapeHtml(acc.name):'—'}</div>
+        <span class="tag">${escapeHtml(t.category)}</span>
+      </div>
+      <div class="right">
+        <div class="amount ${t.type}">${t.type==='ingreso'?'+':'-'}${money(t.amount)}</div>
+      </div>
+    </div>`;
+  }).join('');
+  list.querySelectorAll('[data-tx]').forEach(el=>{
+    el.addEventListener('click', ()=> openTxModal(el.dataset.tx));
+  });
+}
+
+function formatDateEs(iso){
+  const d = new Date(iso+'T00:00:00');
+  return d.toLocaleDateString('es-CL', { day:'2-digit', month:'short' }).replace('.','');
+}
+
+function openTxModal(id){
+  const tx = id ? state.transactions.find(t=>t.id===id) : null;
+  const isEdit = !!tx;
+  if(state.accounts.length === 0){
+    alert('Primero crea una cuenta en la pestaña Cuentas.');
+    return;
+  }
+  openModal(`
+    <h3>${isEdit ? 'Editar movimiento' : 'Nuevo movimiento'}</h3>
+    <div class="field">
+      <label>Tipo</label>
+      <div class="seg" id="txTypeSeg">
+        <button type="button" data-val="ingreso" class="${(!tx||tx.type==='ingreso')?'active':''}">Ingreso</button>
+        <button type="button" data-val="gasto" class="${tx&&tx.type==='gasto'?'active':''}">Gasto</button>
+      </div>
+    </div>
+    <div class="field">
+      <label>Monto</label>
+      <input type="number" class="mono" id="txAmount" placeholder="0" value="${tx?tx.amount:''}">
+    </div>
+    <div class="field">
+      <label>Fecha</label>
+      <input type="date" id="txDate" value="${tx?tx.date:todayISO()}">
+    </div>
+    <div class="field">
+      <label>Descripción</label>
+      <input type="text" id="txDesc" placeholder="Ej: Almuerzo" value="${tx?escapeHtml(tx.description||''):''}">
+    </div>
+    <div class="field">
+      <label>Categoría</label>
+      <select id="txCategory">
+        ${state.categories.map(c=>`<option value="${escapeHtml(c)}" ${tx&&tx.category===c?'selected':''}>${escapeHtml(c)}</option>`).join('')}
+      </select>
+      <div class="cat-add-row">
+        <input type="text" id="newCatInput" placeholder="Nueva categoría...">
+        <button class="btn small ghost" id="addCatBtn" type="button">Agregar</button>
+      </div>
+    </div>
+    <div class="field">
+      <label>Cuenta</label>
+      <select id="txAccount">
+        ${state.accounts.map(a=>`<option value="${a.id}" ${tx&&tx.accountId===a.id?'selected':''}>${escapeHtml(a.name)} ${a.type==='tarjeta'?'(tarjeta)':''}</option>`).join('')}
+      </select>
+    </div>
+    <div class="modal-actions">
+      ${isEdit ? '<button class="btn danger" id="delTxBtn">Eliminar</button>' : ''}
+      <button class="btn ghost full" id="cancelTxBtn">Cancelar</button>
+      <button class="btn full" id="saveTxBtn">Guardar</button>
+    </div>
+  `);
+  let selType = tx ? tx.type : 'gasto';
+  document.querySelectorAll('#txTypeSeg button').forEach(b=>{
+    b.addEventListener('click', ()=>{
+      selType = b.dataset.val;
+      document.querySelectorAll('#txTypeSeg button').forEach(x=>x.classList.toggle('active', x===b));
+    });
+  });
+  document.getElementById('addCatBtn').addEventListener('click', ()=>{
+    const val = document.getElementById('newCatInput').value.trim();
+    if(!val) return;
+    if(!state.categories.includes(val)){
+      state.categories.push(val);
+      saveState();
+    }
+    const sel = document.getElementById('txCategory');
+    if(![...sel.options].some(o=>o.value===val)){
+      const opt = document.createElement('option');
+      opt.value = val; opt.textContent = val;
+      sel.appendChild(opt);
+    }
+    sel.value = val;
+    document.getElementById('newCatInput').value = '';
+  });
+  document.getElementById('cancelTxBtn').addEventListener('click', closeModal);
+  document.getElementById('saveTxBtn').addEventListener('click', ()=>{
+    const amount = parseFloat(document.getElementById('txAmount').value);
+    const date = document.getElementById('txDate').value || todayISO();
+    const description = document.getElementById('txDesc').value.trim();
+    const category = document.getElementById('txCategory').value;
+    const accountId = document.getElementById('txAccount').value;
+    if(!amount || amount <= 0){ alert('Ingresa un monto válido'); return; }
+    if(isEdit){
+      Object.assign(tx, { type:selType, amount, date, description, category, accountId });
+    } else {
+      state.transactions.push({ id: uid(), type:selType, amount, date, description, category, accountId });
+    }
+    saveState(); closeModal(); renderAll();
+  });
+  if(isEdit){
+    document.getElementById('delTxBtn').addEventListener('click', ()=>{
+      if(confirm('¿Eliminar este movimiento?')){
+        state.transactions = state.transactions.filter(t=>t.id!==tx.id);
+        saveState(); closeModal(); renderAll();
+      }
+    });
+  }
+}
+document.getElementById('addTxBtn').addEventListener('click', ()=>openTxModal(null));
+
+/* ================= RENDER: TARJETA ================= */
+function renderTarjeta(){
+  const wrap = document.getElementById('tarjetaContent');
+  const cards = state.accounts.filter(a=>a.type==='tarjeta');
+  if(cards.length === 0){
+    wrap.innerHTML = `<div class="empty-state"><span class="display">No tienes tarjeta registrada</span>Crea una cuenta de tipo "Tarjeta" en la pestaña Cuentas.</div>`;
+    return;
+  }
+  wrap.innerHTML = cards.map(c=>{
+    const debt = cardDebt(c);
+    return `<div class="card-visual">
+      <div class="lbl">${escapeHtml(c.name)}</div>
+      <div class="debt">${money(debt)}</div>
+      <div class="sub">Deuda actual</div>
+      <button class="btn" data-pay="${c.id}">Pagar tarjeta</button>
+    </div>`;
+  }).join('');
+  wrap.querySelectorAll('[data-pay]').forEach(btn=>{
+    btn.addEventListener('click', ()=> openPayCardModal(btn.dataset.pay));
+  });
+}
+
+function openPayCardModal(cardId){
+  const card = state.accounts.find(a=>a.id===cardId);
+  const savings = state.accounts.filter(a=>a.type==='ahorro');
+  if(savings.length === 0){
+    alert('Necesitas al menos una cuenta de ahorro para pagar la tarjeta.');
+    return;
+  }
+  const debt = cardDebt(card);
+  openModal(`
+    <h3>Pagar ${escapeHtml(card.name)}</h3>
+    <div class="field">
+      <label>Deuda actual</label>
+      <input class="mono" value="${money(debt)}" disabled>
+    </div>
+    <div class="field">
+      <label>Pagar con</label>
+      <select id="paySource">
+        ${savings.map(a=>`<option value="${a.id}">${escapeHtml(a.name)} · ${money(accountBalance(a))}</option>`).join('')}
+      </select>
+    </div>
+    <div class="field">
+      <label>Monto a pagar</label>
+      <input type="number" class="mono" id="payAmount" placeholder="0">
+    </div>
+    <div class="modal-actions">
+      <button class="btn ghost full" id="cancelPayBtn">Cancelar</button>
+      <button class="btn full" id="confirmPayBtn">Pagar</button>
+    </div>
+  `);
+  document.getElementById('cancelPayBtn').addEventListener('click', closeModal);
+  document.getElementById('confirmPayBtn').addEventListener('click', ()=>{
+    const amount = parseFloat(document.getElementById('payAmount').value);
+    const sourceId = document.getElementById('paySource').value;
+    if(!amount || amount <= 0){ alert('Ingresa un monto válido'); return; }
+    state.transactions.push({
+      id: uid(), type:'gasto', amount, date: todayISO(),
+      description: 'Pago tarjeta de crédito', category: 'Pago tarjeta',
+      accountId: sourceId, isCardPayment: true, linkedCardId: cardId
+    });
+    saveState(); closeModal(); renderAll();
+  });
+}
+
+/* ================= RENDER: BOLSILLOS ================= */
+function renderBolsillos(){
+  const list = document.getElementById('pocketsList');
+  if(state.pockets.length === 0){
+    list.innerHTML = `<div class="empty-state"><span class="display">Sin bolsillos aún</span>Crea uno para juntar plata con un objetivo.</div>`;
+    return;
+  }
+  list.innerHTML = state.pockets.map(p=>`
+    <div class="pocket-card">
+      <div class="name">${escapeHtml(p.name)}</div>
+      <div class="rate ${p.rate>0?'':'none'}">${p.rate>0 ? 'Crece '+p.rate+'% mensual' : 'Sin crecimiento automático'}</div>
+      <div class="bal mono">${money(p.balance)}</div>
+      <div class="actions">
+        <button class="btn small" data-dep="${p.id}">+ Meter</button>
+        <button class="btn small ghost" data-wd="${p.id}">− Sacar</button>
+        <button class="btn small ghost" data-edit="${p.id}">⋯</button>
+      </div>
+    </div>
+  `).join('');
+  list.querySelectorAll('[data-dep]').forEach(b=>b.addEventListener('click', ()=>pocketMove(b.dataset.dep,'in')));
+  list.querySelectorAll('[data-wd]').forEach(b=>b.addEventListener('click', ()=>pocketMove(b.dataset.wd,'out')));
+  list.querySelectorAll('[data-edit]').forEach(b=>b.addEventListener('click', ()=>openPocketModal(b.dataset.edit)));
+}
+
+function pocketMove(id, dir){
+  const p = state.pockets.find(x=>x.id===id);
+  openModal(`
+    <h3>${dir==='in' ? 'Meter dinero a' : 'Sacar dinero de'} ${escapeHtml(p.name)}</h3>
+    <div class="field">
+      <label>Monto</label>
+      <input type="number" class="mono" id="moveAmount" placeholder="0">
+    </div>
+    <div class="modal-actions">
+      <button class="btn ghost full" id="cancelMoveBtn">Cancelar</button>
+      <button class="btn full" id="confirmMoveBtn">Confirmar</button>
+    </div>
+  `);
+  document.getElementById('cancelMoveBtn').addEventListener('click', closeModal);
+  document.getElementById('confirmMoveBtn').addEventListener('click', ()=>{
+    const amt = parseFloat(document.getElementById('moveAmount').value);
+    if(!amt || amt<=0){ alert('Ingresa un monto válido'); return; }
+    if(dir==='in') p.balance += amt;
+    else p.balance = Math.max(0, p.balance - amt);
+    saveState(); closeModal(); renderAll();
+  });
+}
+
+function openPocketModal(id){
+  const p = id ? state.pockets.find(x=>x.id===id) : null;
+  const isEdit = !!p;
+  openModal(`
+    <h3>${isEdit?'Editar bolsillo':'Nuevo bolsillo'}</h3>
+    <div class="field">
+      <label>Nombre</label>
+      <input type="text" id="pName" placeholder="Ej: Vacaciones" value="${p?escapeHtml(p.name):''}">
+    </div>
+    <div class="field">
+      <label>Saldo inicial</label>
+      <input type="number" class="mono" id="pBalance" value="${p?p.balance:0}">
+    </div>
+    <div class="field">
+      <label>Tasa de crecimiento mensual % (opcional)</label>
+      <input type="number" step="0.01" class="mono" id="pRate" placeholder="0" value="${p?(p.rate||''):''}">
+    </div>
+    <div class="modal-actions">
+      ${isEdit ? '<button class="btn danger" id="delPocketBtn">Eliminar</button>' : ''}
+      <button class="btn ghost full" id="cancelPocketBtn">Cancelar</button>
+      <button class="btn full" id="savePocketBtn">Guardar</button>
+    </div>
+  `);
+  document.getElementById('cancelPocketBtn').addEventListener('click', closeModal);
+  document.getElementById('savePocketBtn').addEventListener('click', ()=>{
+    const name = document.getElementById('pName').value.trim();
+    const balance = parseFloat(document.getElementById('pBalance').value) || 0;
+    const rate = parseFloat(document.getElementById('pRate').value) || 0;
+    if(!name){ alert('Ponle un nombre al bolsillo'); return; }
+    if(isEdit){
+      p.name = name; p.balance = balance; p.rate = rate;
+    } else {
+      state.pockets.push({ id: uid(), name, balance, rate, createdAt: todayISO(), lastGrowth: todayISO() });
+    }
+    saveState(); closeModal(); renderAll();
+  });
+  if(isEdit){
+    document.getElementById('delPocketBtn').addEventListener('click', ()=>{
+      if(confirm('¿Eliminar este bolsillo?')){
+        state.pockets = state.pockets.filter(x=>x.id!==p.id);
+        saveState(); closeModal(); renderAll();
+      }
+    });
+  }
+}
+document.getElementById('addPocketBtn').addEventListener('click', ()=>openPocketModal(null));
+
+/* ================= HELPERS ================= */
+function escapeHtml(str){
+  return String(str).replace(/[&<>"']/g, m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+}
+
+/* ================= RENDER ALL ================= */
+function renderAll(){
+  renderResumen();
+  renderCuentas();
+  renderMovimientos();
+  renderTarjeta();
+  renderBolsillos();
+}
+
+/* ================= INIT ================= */
+document.getElementById('todayLabel').textContent = new Date().toLocaleDateString('es-CL', { weekday:'long', day:'numeric', month:'long' });
+
+applyPocketGrowth();
+renderAll();
+
+/* ---- Sugerencia de instalación en iOS Safari ---- */
+(function(){
+  const isIos = /iphone|ipad|ipod/i.test(window.navigator.userAgent);
+  const isStandalone = window.navigator.standalone === true;
+  const hint = document.getElementById('installHint');
+  if(isIos && !isStandalone){
+    hint.style.display = 'flex';
+    document.getElementById('dismissHint').addEventListener('click', ()=> hint.style.display='none');
+  }
+})();
+</script>
+</body>
+</html>
